@@ -28,6 +28,26 @@ def makeComboGRIT1(n):
 		users.append(userID)
 	return users
 
+def makeComboGRIT2(n):
+	users = []
+	for i in range(1,n+1):
+		userID = '016LTF'
+		if i < 10:
+			userID += '0'
+		userID += '%d'%i
+		users.append(userID)
+	return users
+
+def makeComboGRIT3(n):
+	users = []
+	for i in range(1,n+1):
+		userID = '015LTF'
+		if i < 10:
+			userID += '0'
+		userID += '%d'%i
+		users.append(userID)
+	return users
+
 def generatePassword():
 	password = random.choice('AUJKLMDNPQ')
 	password += str(random.randint(1, 10))
