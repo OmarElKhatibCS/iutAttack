@@ -25,14 +25,14 @@ sudo pacman -S unzip
 ```
 cd Downloads
 unzip chromedriver_linux64.zip
-chmod a+x chromedriver
-mv chromedriver /usr/local/bin
+sudo chmod a+x chromedriver
+sudo mv chromedriver /usr/local/bin
 ```
 * and the same we need to install PhantomJs which can downloaded from [PhantomJS](http://phantomjs.org/download.html) , after downloading it open terminal then
 ```
 cd Downloads
-chmod a+x phantomjs
-mv phantomjs /usr/local/bin
+sudo chmod a+x phantomjs
+sudo mv phantomjs /usr/local/bin
 ```
 * now we end all steps and the script is ready to Run , you can Run it using python2 the code using
 ```
